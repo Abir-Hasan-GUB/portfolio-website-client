@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* ======Comon Style ======== */
+html,
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    align-items: center;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    list-style: none;
+    outline: none;
+}
+/* ========= Comon Style End ======= */
+
+/* Nav start  */
+
+.hasan{
+    background: #3C3F41;
+    min-height: 70px;
+    border-bottom: 1px solid rgba(5, 237, 248, 0.3);
+}
+
+
+.abir{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #05EDF8 !important;
+    transition: 0.5s;
+}
+
+.abir:hover{
+    font-size:25px;
+    color: #fff !important;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+ul li a{
+    position: relative;
+    margin: 0 45px;
+    font-size: 16px;
+    color: #05EDF8 !important;
+    text-transform: uppercase;
+    transition: 0.7s;
+}
+
+ul li a:last-child{
+    margin-right: 0px;
+}
+
+ul li a:hover{
+    color: #000 !important;;
+    background: #05EDF8;
+    font-size: 18px;
+}
+
+#scroll-active li.active a{
+    color: #000;
+    display: block;
+}
+
+ul li a:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #05EDF8;
+    border-width: 0 0 3px 3px;
+    transition: 0.5s;
+    opacity: 0;
+}
+ul li a:hover:before{
+    bottom: -10px;
+    left: -10px;
+    opacity: 1;
+}
+
+
+ul li a:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #05EDF8;
+    border-width: 3px 3px 0 0;;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+ul li a:hover:after{
+    top: -10px;
+    right: -10px;
+    opacity: 1;
+}
+/*sticky menu*/
+
+nav.sticky{
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 6;
+}
