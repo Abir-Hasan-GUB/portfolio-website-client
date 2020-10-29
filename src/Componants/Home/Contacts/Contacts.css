@@ -109,4 +109,8 @@
 .container .row100 .inputBox textarea:valid ~ .line{
     height: 100%;
 }
-
+.contactBtn{
+    background: transparent;
+    padding: 10px 20px !important;
+    border: none;
+}

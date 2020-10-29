@@ -89,7 +89,7 @@ section{
     text-decoration: none;
     box-shadow: 0 20px 20px rgba(0,0,0,.5);
     overflow: hidden;
-    transition: 0.7s;
+    transition: 0.7s !important;
 }
 
 .btn:hover{
