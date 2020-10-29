@@ -6,7 +6,6 @@ import Portfolio from './Componants/Home/Portfolio/Portfolio';
 import Sarvice from './Componants/Home/Service/Sarvice';
 import Skill from './Componants/Home/Skils/Skill';
 
-
 function App() {
   return (
     <div>
