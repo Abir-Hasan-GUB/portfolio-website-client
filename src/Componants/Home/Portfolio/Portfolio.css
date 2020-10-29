@@ -1,0 +1,142 @@
+
+#portfolio{
+    padding: 90px 0 90px 0;
+}
+
+.little-description{
+    text-align: center;
+}
+
+.little-description h5{
+    font-size: 16px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.little-description h2{
+    font-size: 25px;
+    font-weight: 700;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color:#05EDF8;
+    margin-bottom: 20px;
+}
+
+.portfolio-filter{
+    margin-bottom: 25px
+}
+
+
+#portfolio .control .portfolio-filter button.mixitup-control-active{
+    color: #fff;
+}
+
+#portfolio .control .portfolio-filter button{
+    background: #05EDF8;
+    text-align: center;
+    border: 0;    
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    transition: .7s ease-in-out;
+    margin: 0 10px;
+    color: #3C3F41;
+}
+
+
+#portfolio .control .portfolio-filter button::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(45deg, #ffee54 20%, #673ab7 100%);
+    z-index: -1;
+    transition: .5s linear;
+    width: 0;
+    border-radius: 50px;
+}
+
+#portfolio .control .portfolio-filter button.mixitup-control-active::before{
+    width: 100%
+}
+
+
+#portfolio .port-img{
+    overflow: hidden;
+    position: relative;
+     transition: all 0.7s ease-in-out;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#portfolio .port-img img{
+    object-fit: fill;
+    height: 100%;
+}
+
+
+#portfolio .port-img::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #1fe6ff, #673ab7);
+    width: 0%;
+    height: 100%;
+    transition: all 0.7s ease-in-out;
+    z-index: 2;
+}
+
+#portfolio .port-img:hover::before{
+    width: 100%;
+    opacity: 0.4;
+}
+
+#portfolio .port-img:hover img{
+    transform: scale(1.1);
+}
+
+
+#portfolio .port-img {
+    width: 100%;
+    height: 222px;
+    transition: all ease-in-out 0.5s;
+    transform: scale(1);
+}
+
+#portfolio .port-img .view {
+    position: absolute;;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    display: inline-block;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+    color: #05EDF8;
+    font-size: 45px;
+    transition: all 0.7s ease-in-out;
+    pointer-events: none;
+}
+
+#portfolio .port-img:hover .view{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translate(-50%, -50%);
+}
+
+.psd{
+    margin-bottom: 30px;
+}

@@ -22,7 +22,6 @@ const Banner = () => {
                             <a href="#" target="_blank">{icon}</a>
                             <a href="#" target="_blank">{icon}</a>
                             <a href="#" target="_blank">{icon}</a>
-                            <a href="#" target="_blank">{icon}</a>
                         </div>
                         <a href="#" target="_blank" class="btn">
                             <span></span>

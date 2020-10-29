@@ -28,12 +28,12 @@ const Skill = () => {
                             <div className="percent">
                                 <div className="progress" style={{width: "90%"}}></div>
                             </div>
-                            <span className="value">80%</span>
+                            <span className="value">90%</span>
                         </div>
                         <div className="skills">
                             <span className="name">javascript</span>
                             <div className="percent">
-                                <div className="progress" style={{width: "95%"}}></div>
+                                <div className="progress" style={{width: "85%"}}></div>
                             </div>
                             <span className="value">85%</span>
                         </div>
