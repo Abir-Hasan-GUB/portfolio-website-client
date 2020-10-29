@@ -15,7 +15,7 @@ const Portfolio = () => {
                 <div class="row">
                     <div class="col little-description">
                         <h5>My Portfolio</h5>
-                        <h2>CHECK OUT MY RECENT PRACTICE WORK</h2>
+                        <h2>CHECK OUT MY RECENT PROJECT</h2>
                     </div>
                 </div>
                 <div class="row justify-content-center control">
