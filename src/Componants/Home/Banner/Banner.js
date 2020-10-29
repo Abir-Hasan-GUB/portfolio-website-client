@@ -11,12 +11,12 @@ const Banner = () => {
         <section id="hom">
             <div className="container">
             <div className="row">
-            <div class="col-lg-6 md-12">
-                    <div class="banner-content">
+            <div className="col-lg-6 md-12">
+                    <div className ="banner-content">
                         <h3>Hi there,</h3>
                         <h1>I'm Abir Hasan</h1>
                         <h4>Web Designer and Developer</h4>
-                        <div class="icons">
+                        <div className ="icons">
                             <a href="#" target="_blank">{icon}</a>
                             <a href="#" target="_blank">{icon}</a>
                             <a href="#" target="_blank">{icon}</a>
@@ -32,8 +32,8 @@ const Banner = () => {
                             Hire Me</a>
                     </div>
                 </div>
-                <div class="col-lg-6 md-12">
-                <div class="hero-img">
+                <div className ="col-lg-6 md-12">
+                <div className ="hero-img">
                        <img class="img-fluid" src={momin} alt="momin khan" />
                     </div>
                 </div>
