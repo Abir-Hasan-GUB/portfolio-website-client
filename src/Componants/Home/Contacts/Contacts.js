@@ -50,7 +50,7 @@ const Contacts = () => {
                         </div>
                         <div class="row100">
                             <div class="col">
-                                <a href="#" target="_blank" class="btn">
+                                <a href="#" target="_blank" class="Cbtn">
                                     <span></span>
                                     <span></span>
                                     <span></span>

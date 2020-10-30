@@ -32,6 +32,10 @@ const NavBar = () => {
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact"><button class="btn btn-dark navResumeBtn">Get Resume</button></a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>

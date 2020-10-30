@@ -117,6 +117,15 @@ ul li a:hover:after{
     right: -10px;
     opacity: 1;
 }
+
+.navResumeBtn{
+    font-size: 16px !important;
+    color: #3C3F41 !important;
+   background-color: #05EDF8 !important;
+    text-transform: uppercase;
+    border: none !important;
+    
+}
 /*sticky menu*/
 
 nav.sticky{
