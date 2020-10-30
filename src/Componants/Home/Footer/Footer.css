@@ -1,0 +1,21 @@
+.foooter{
+    height: 50px;
+    background-color: #182335;
+    color: white;
+}
+.dev a{
+    color: white;
+    margin-right: 20px;
+    font-size: 200%;
+}
+.dev a:hover{
+    color: #28a745;
+}
+
+.heart{
+    color: red;
+    font-size: 150%;
+}
+.footerMainDiv{
+    line-height: 40px;
+}

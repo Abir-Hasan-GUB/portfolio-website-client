@@ -119,3 +119,6 @@
 .main:hover i{
     transform: rotate(360deg);
 }
+svg{
+    margin-top: 24px;
+}

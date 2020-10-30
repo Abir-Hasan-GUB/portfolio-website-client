@@ -2,6 +2,7 @@ import './App.css';
 import About from './Componants/Home/AboutMe/About';
 import Banner from './Componants/Home/Banner/Banner';
 import Contacts from './Componants/Home/Contacts/Contacts';
+import Footer from './Componants/Home/Footer/Footer';
 import NavBar from './Componants/Home/NavBar/NavBar';
 import Portfolio from './Componants/Home/Portfolio/Portfolio';
 import Sarvice from './Componants/Home/Service/Sarvice';
@@ -18,6 +19,7 @@ function App() {
       <Sarvice></Sarvice>
       <Portfolio></Portfolio>
       <Contacts></Contacts>
+      <Footer></Footer>
     </div>
   );
 }
