@@ -1,26 +1,39 @@
 import './App.css';
-import About from './Componants/Home/AboutMe/About';
-import Banner from './Componants/Home/Banner/Banner';
-import Contacts from './Componants/Home/Contacts/Contacts';
-import Footer from './Componants/Home/Footer/Footer';
-import NavBar from './Componants/Home/NavBar/NavBar';
-import Portfolio from './Componants/Home/Portfolio/Portfolio';
-import Sarvice from './Componants/Home/Service/Sarvice';
-import Skill from './Componants/Home/Skils/Skill';
 import './Responsive.css';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+  Redirect,
+  useLocation
+} from "react-router-dom";
+
+import MainHome from './Componants/MainHome/MainHome';
+import Admin from './Componants/Admin/Admin';
+import NotFound from './Componants/NotFound/NotFound';
 
 function App() {
   return (
-    <div>
-      <NavBar></NavBar>
-      <Banner></Banner>
-      <About></About>
-      <Skill></Skill>
-      <Sarvice></Sarvice>
-      <Portfolio></Portfolio>
-      <Contacts></Contacts>
-      <Footer></Footer>
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/">
+            <MainHome />
+          </Route>
+          <Route exact path="/admin">
+            <Admin />
+          </Route>
+          <Route exact path="/blog">
+            <Admin />
+          </Route>
+          <Route path="*">
+            <NotFound />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+
   );
 }
 

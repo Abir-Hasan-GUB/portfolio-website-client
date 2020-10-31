@@ -46,6 +46,9 @@ font-size: 35px;
 color:#fff;
 font-weight: 700;
 }
+.resumeBtn{
+    margin-left: 35% !important;
+}
 #about{
     background-image: none;
     padding: 0px;
@@ -308,7 +311,9 @@ padding: 40px 0 4px 0;
     align-items: center;
 }
 
-
+.resumeBtn{
+    margin-left: 30% !important;
+}
 
 }
 

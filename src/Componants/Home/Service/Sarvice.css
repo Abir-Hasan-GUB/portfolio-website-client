@@ -116,7 +116,7 @@
     transform: translateY(-25px);
 }
 
-.main:hover i{
+.main:hover i svg{
     transform: rotate(360deg);
 }
 svg{

@@ -25,6 +25,9 @@ a{
     list-style: none;
     outline: none;
 }
+a:hover {
+    text-decoration: none !important;
+}
 /* ========= Comon Style End ======= */
 
 /* Nav start  */
